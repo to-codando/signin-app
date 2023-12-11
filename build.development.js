@@ -73,7 +73,7 @@ const runBuild = async () => {
     const ctx = await context(configBuild);
 
     const { port } = await ctx.serve({
-      port: 8080,
+      port: 8082,
       servedir: "./dist",
     });
 
